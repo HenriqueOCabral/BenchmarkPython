@@ -63,7 +63,7 @@ def init(app):
 			)
 		except IOError as e:
 			RESPONSE += (
-				f'Problem reading from file \'{fileName}\': '
+				f'Problem reading from file \'{{escape_for_html(fileName)}}\': '
 				f'{escape_for_html(e.strerror)}'
 			)
 		finally:
