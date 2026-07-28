@@ -4,6 +4,8 @@
 notallowed
 testfiles/
 venv/
+.bu-patched-classes/
+.python-version
 
 # codeql db
 benchmark-py/

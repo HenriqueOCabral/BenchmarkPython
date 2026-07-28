@@ -9,9 +9,17 @@ This is a preliminary initial release we are calling v0.1. Over the next several
 
 Note that all the releases that are available here: https://github.com/OWASP/BenchmarkPython/releases, are historical. The latest release is always available live by simply cloning or pulling the head of this repository (i.e., git pull).
 
+Requirements:
+* **Python 3.12+** (test cases use `match`/`case` and nested quotes inside f-strings)
+
 Running Benchmark Itself:
 * runBenchmark.sh - run the Benchmark Python Web Application (accessible via local machine only)
 * runRemoteAccessibleBenchmark.sh - like the above but allows port 8443 to be accessible outside the machine the Python Benchmark is running on.
+
+Scoring tool results (including Aikido):
+1. Install BenchmarkUtils locally (`mvn install` in that repo) so `org.owasp:benchmarkutils-maven-plugin` is available.
+2. Put tool exports under `results/` (Aikido SARIF as `results/Benchmark_Aikido-<version>.sarif`).
+3. Run `./createScorecards.sh` (uses `scoringconfigfile.yaml` → `expectedresults-0.1.csv`), or `./scripts/runAikidoScorecard.sh [AIK.sarif.json]`.
 
 ACKNOWLEDGEMENTS:
 The OWASP Benchmark project would like to thank the contributions of AppSecAI (https://www.appsecai.io) and their team members Theo Cartsonis and Jessica Salawu for doing the bulk of the development work to produce this first release of the Benchmark for Python test suite.

@@ -7,6 +7,15 @@ if [ $(basename $(pwd)) != $(basename $(git rev-parse --show-toplevel)) ]; then
 	exit 1
 fi
 
+# Test cases use match/case and nested f-string quotes (Python 3.12+)
+PY_MAJOR=$(python3 -c 'import sys; print(sys.version_info.major)')
+PY_MINOR=$(python3 -c 'import sys; print(sys.version_info.minor)')
+if [ "$PY_MAJOR" -lt 3 ] || { [ "$PY_MAJOR" -eq 3 ] && [ "$PY_MINOR" -lt 12 ]; }; then
+	echo "Python 3.12+ is required (found $(python3 --version))."
+	echo "Hint: pyenv local 3.14.3  # or another 3.12+ interpreter"
+	exit 1
+fi
+
 # ensure venv exists
 if [ ! -d venv ]; then
 	echo "Creating python venv..."

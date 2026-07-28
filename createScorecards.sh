@@ -1,2 +1,2 @@
 source "scripts/verifyBenchmarkPluginAvailable.sh"
-mvn -Djava.awt.headless=true org.owasp:benchmarkutils-maven-plugin:create-scorecard -DconfigFile=scoringconfigfile.yaml
+MAVEN_OPTS="-Xmx8G" mvn -Djava.awt.headless=true org.owasp:benchmarkutils-maven-plugin:create-scorecard -DconfigFile=scoringconfigfile.yaml
