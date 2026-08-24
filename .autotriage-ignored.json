@@ -1,0 +1,226 @@
+[
+  {
+    "test": "BenchmarkTest00075",
+    "uri": "code/BenchmarkTest00075.py",
+    "ruleId": "rules.AIK_python_B102",
+    "message": "Unsafe exec usage can lead to remote code execution.",
+    "startLine": 53,
+    "snippet": "exec(bar)"
+  },
+  {
+    "test": "BenchmarkTest00156",
+    "uri": "code/BenchmarkTest00156.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 44,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00157",
+    "uri": "code/BenchmarkTest00157.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 50,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00158",
+    "uri": "code/BenchmarkTest00158.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 56,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00163",
+    "uri": "code/BenchmarkTest00163.py",
+    "ruleId": "rules.AIK_python_B102",
+    "message": "Unsafe exec usage can lead to remote code execution.",
+    "startLine": 47,
+    "snippet": "exec(bar)"
+  },
+  {
+    "test": "BenchmarkTest00263",
+    "uri": "code/BenchmarkTest00263.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 51,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00344",
+    "uri": "code/BenchmarkTest00344.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 44,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00345",
+    "uri": "code/BenchmarkTest00345.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 54,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00423",
+    "uri": "code/BenchmarkTest00423.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 54,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00513",
+    "uri": "code/BenchmarkTest00513.py",
+    "ruleId": "rules.AIK_python_B506",
+    "message": "Yaml.load() has the ability to construct an arbitrary Python object. This is dangerous if you receive a YAML document from an untrusted source.",
+    "startLine": 45,
+    "snippet": "yobj = yaml.load(bar, Loader=yaml.Loader)"
+  },
+  {
+    "test": "BenchmarkTest00600",
+    "uri": "code/BenchmarkTest00600.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 52,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00608",
+    "uri": "code/BenchmarkTest00608.py",
+    "ruleId": "rules.AIK_python_B506",
+    "message": "Yaml.load() has the ability to construct an arbitrary Python object. This is dangerous if you receive a YAML document from an untrusted source.",
+    "startLine": 53,
+    "snippet": "yobj = yaml.load(bar, Loader=yaml.Loader)"
+  },
+  {
+    "test": "BenchmarkTest00658",
+    "uri": "code/BenchmarkTest00658.py",
+    "ruleId": "rules.AIK_python_B506",
+    "message": "Yaml.load() has the ability to construct an arbitrary Python object. This is dangerous if you receive a YAML document from an untrusted source.",
+    "startLine": 53,
+    "snippet": "yobj = yaml.load(bar, Loader=yaml.Loader)"
+  },
+  {
+    "test": "BenchmarkTest00730",
+    "uri": "code/BenchmarkTest00730.py",
+    "ruleId": "rules.AIK_python_B102",
+    "message": "Unsafe exec usage can lead to remote code execution.",
+    "startLine": 48,
+    "snippet": "exec(bar)"
+  },
+  {
+    "test": "BenchmarkTest00818",
+    "uri": "code/BenchmarkTest00818.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 49,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00821",
+    "uri": "code/BenchmarkTest00821.py",
+    "ruleId": "rules.AIK_python_B102",
+    "message": "Unsafe exec usage can lead to remote code execution.",
+    "startLine": 49,
+    "snippet": "exec(bar)"
+  },
+  {
+    "test": "BenchmarkTest00822",
+    "uri": "code/BenchmarkTest00822.py",
+    "ruleId": "rules.AIK_python_B102",
+    "message": "Unsafe exec usage can lead to remote code execution.",
+    "startLine": 47,
+    "snippet": "exec(bar)"
+  },
+  {
+    "test": "BenchmarkTest00892",
+    "uri": "code/BenchmarkTest00892.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 52,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00893",
+    "uri": "code/BenchmarkTest00893.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 55,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00987",
+    "uri": "code/BenchmarkTest00987.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 61,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest00995",
+    "uri": "code/BenchmarkTest00995.py",
+    "ruleId": "rules.AIK_python_B506",
+    "message": "Yaml.load() has the ability to construct an arbitrary Python object. This is dangerous if you receive a YAML document from an untrusted source.",
+    "startLine": 51,
+    "snippet": "yobj = yaml.load(bar, Loader=yaml.Loader)"
+  },
+  {
+    "test": "BenchmarkTest01108",
+    "uri": "code/BenchmarkTest01108.py",
+    "ruleId": "rules.AIK_py_LFI",
+    "message": "Possible LFI",
+    "startLine": 43,
+    "snippet": "fd = open(fileName, 'wb')"
+  },
+  {
+    "test": "BenchmarkTest01165",
+    "uri": "code/BenchmarkTest01165.py",
+    "ruleId": "rules.AIK_python_B307",
+    "message": "Detected use of eval. This may allow remote code execution if the source comes from untrusted user input.",
+    "startLine": 56,
+    "snippet": "eval(bar)"
+  },
+  {
+    "test": "BenchmarkTest01166",
+    "uri": "code/BenchmarkTest01166.py",
+    "ruleId": "rules.AIK_python_B102",
+    "message": "Unsafe exec usage can lead to remote code execution.",
+    "startLine": 46,
+    "snippet": "exec(bar)"
+  },
+  {
+    "test": "BenchmarkTest01172",
+    "uri": "code/BenchmarkTest01172.py",
+    "ruleId": "rules.AIK_python_B301",
+    "message": "Unlike JSON, it is possible to construct malicious Pickle data which can execute attacker-controller code during loading of data (unpickling).",
+    "startLine": 46,
+    "snippet": "unpickled = pickle.loads(base64.urlsafe_b64decode(bar))"
+  },
+  {
+    "test": "BenchmarkTest01173",
+    "uri": "code/BenchmarkTest01173.py",
+    "ruleId": "rules.AIK_python_B602",
+    "message": "Using subprocess.Popen with expressions based on user input can execute arbitrary code. This is especially true when shell=true, because it adds the extra danger of shell injection attacks.",
+    "startLine": 51,
+    "snippet": "proc = subprocess.run(argStr, shell=True, capture_output=True, encoding=\"utf-8\")"
+  },
+  {
+    "test": "BenchmarkTest01222",
+    "uri": "code/BenchmarkTest01222.py",
+    "ruleId": "rules.AIK_py_LFI",
+    "message": "Possible LFI",
+    "startLine": 41,
+    "snippet": "fd = open(fileName, 'wb')"
+  },
+  {
+    "test": "BenchmarkTest01230",
+    "uri": "code/BenchmarkTest01230.py",
+    "ruleId": "rules.AIK_python_B301",
+    "message": "Unlike JSON, it is possible to construct malicious Pickle data which can execute attacker-controller code during loading of data (unpickling).",
+    "startLine": 43,
+    "snippet": "unpickled = pickle.loads(base64.urlsafe_b64decode(param))"
+  }
+]

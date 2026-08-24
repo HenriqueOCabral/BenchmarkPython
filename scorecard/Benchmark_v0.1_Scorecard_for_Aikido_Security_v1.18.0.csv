@@ -1,4 +1,4 @@
-# test name, category, CWE, real vulnerability, identified by tool, pass/fail, Benchmark version: 0.1, Actual results generated: 2026-07-28
+# test name, category, CWE, real vulnerability, identified by tool, pass/fail, Benchmark version: 0.1, Actual results generated: 2026-08-24
 BenchmarkTest00001, pathtraver, 22, true, false, fail
 BenchmarkTest00002, pathtraver, 22, true, false, fail
 BenchmarkTest00003, pathtraver, 22, true, false, fail
@@ -73,7 +73,7 @@ BenchmarkTest00071, trustbound, 501, false, false, pass
 BenchmarkTest00072, trustbound, 501, true, false, fail
 BenchmarkTest00073, codeinj, 94, false, true, fail
 BenchmarkTest00074, codeinj, 94, true, false, fail
-BenchmarkTest00075, codeinj, 94, false, true, fail
+BenchmarkTest00075, codeinj, 94, false, false, pass
 BenchmarkTest00076, ldapi, 90, false, false, pass
 BenchmarkTest00077, ldapi, 90, false, false, pass
 BenchmarkTest00078, deserialization, 502, true, false, fail
@@ -154,14 +154,14 @@ BenchmarkTest00152, trustbound, 501, false, false, pass
 BenchmarkTest00153, trustbound, 501, true, false, fail
 BenchmarkTest00154, trustbound, 501, false, false, pass
 BenchmarkTest00155, trustbound, 501, false, false, pass
-BenchmarkTest00156, codeinj, 94, false, true, fail
-BenchmarkTest00157, codeinj, 94, false, true, fail
-BenchmarkTest00158, codeinj, 94, false, true, fail
+BenchmarkTest00156, codeinj, 94, false, false, pass
+BenchmarkTest00157, codeinj, 94, false, false, pass
+BenchmarkTest00158, codeinj, 94, false, false, pass
 BenchmarkTest00159, codeinj, 94, true, false, fail
 BenchmarkTest00160, codeinj, 94, true, false, fail
 BenchmarkTest00161, codeinj, 94, true, true, pass
 BenchmarkTest00162, codeinj, 94, false, false, pass
-BenchmarkTest00163, codeinj, 94, false, true, fail
+BenchmarkTest00163, codeinj, 94, false, false, pass
 BenchmarkTest00164, deserialization, 502, true, false, fail
 BenchmarkTest00165, cmdi, 78, true, false, fail
 BenchmarkTest00166, cmdi, 78, true, true, pass
@@ -261,7 +261,7 @@ BenchmarkTest00259, redirect, 601, false, false, pass
 BenchmarkTest00260, trustbound, 501, true, false, fail
 BenchmarkTest00261, trustbound, 501, false, false, pass
 BenchmarkTest00262, trustbound, 501, false, false, pass
-BenchmarkTest00263, codeinj, 94, false, true, fail
+BenchmarkTest00263, codeinj, 94, false, false, pass
 BenchmarkTest00264, codeinj, 94, false, true, fail
 BenchmarkTest00265, ldapi, 90, true, false, fail
 BenchmarkTest00266, ldapi, 90, true, false, fail
@@ -342,8 +342,8 @@ BenchmarkTest00340, trustbound, 501, true, false, fail
 BenchmarkTest00341, trustbound, 501, true, false, fail
 BenchmarkTest00342, codeinj, 94, true, true, pass
 BenchmarkTest00343, codeinj, 94, true, true, pass
-BenchmarkTest00344, codeinj, 94, false, true, fail
-BenchmarkTest00345, codeinj, 94, false, true, fail
+BenchmarkTest00344, codeinj, 94, false, false, pass
+BenchmarkTest00345, codeinj, 94, false, false, pass
 BenchmarkTest00346, codeinj, 94, false, false, pass
 BenchmarkTest00347, codeinj, 94, false, false, pass
 BenchmarkTest00348, ldapi, 90, false, false, pass
@@ -421,7 +421,7 @@ BenchmarkTest00419, redirect, 601, false, false, pass
 BenchmarkTest00420, redirect, 601, false, false, pass
 BenchmarkTest00421, trustbound, 501, false, false, pass
 BenchmarkTest00422, codeinj, 94, true, true, pass
-BenchmarkTest00423, codeinj, 94, false, true, fail
+BenchmarkTest00423, codeinj, 94, false, false, pass
 BenchmarkTest00424, codeinj, 94, false, false, pass
 BenchmarkTest00425, codeinj, 94, true, false, fail
 BenchmarkTest00426, codeinj, 94, false, false, pass
@@ -511,7 +511,7 @@ BenchmarkTest00509, deserialization, 502, false, false, pass
 BenchmarkTest00510, deserialization, 502, true, true, pass
 BenchmarkTest00511, cmdi, 78, true, false, fail
 BenchmarkTest00512, cmdi, 78, false, false, pass
-BenchmarkTest00513, deserialization, 502, false, true, fail
+BenchmarkTest00513, deserialization, 502, false, false, pass
 BenchmarkTest00514, deserialization, 502, false, false, pass
 BenchmarkTest00515, xss, 79, true, false, fail
 BenchmarkTest00516, pathtraver, 22, true, false, fail
@@ -598,7 +598,7 @@ BenchmarkTest00596, redirect, 601, true, false, fail
 BenchmarkTest00597, redirect, 601, false, false, pass
 BenchmarkTest00598, redirect, 601, false, false, pass
 BenchmarkTest00599, codeinj, 94, true, true, pass
-BenchmarkTest00600, codeinj, 94, false, true, fail
+BenchmarkTest00600, codeinj, 94, false, false, pass
 BenchmarkTest00601, codeinj, 94, true, true, pass
 BenchmarkTest00602, codeinj, 94, false, false, pass
 BenchmarkTest00603, codeinj, 94, false, false, pass
@@ -606,7 +606,7 @@ BenchmarkTest00604, ldapi, 90, true, false, fail
 BenchmarkTest00605, deserialization, 502, true, true, pass
 BenchmarkTest00606, cmdi, 78, true, true, pass
 BenchmarkTest00607, cmdi, 78, true, false, fail
-BenchmarkTest00608, deserialization, 502, false, true, fail
+BenchmarkTest00608, deserialization, 502, false, false, pass
 BenchmarkTest00609, deserialization, 502, false, false, pass
 BenchmarkTest00610, pathtraver, 22, true, false, fail
 BenchmarkTest00611, pathtraver, 22, false, false, pass
@@ -656,7 +656,7 @@ BenchmarkTest00654, redirect, 601, true, false, fail
 BenchmarkTest00655, redirect, 601, true, false, fail
 BenchmarkTest00656, trustbound, 501, true, false, fail
 BenchmarkTest00657, deserialization, 502, true, true, pass
-BenchmarkTest00658, deserialization, 502, false, true, fail
+BenchmarkTest00658, deserialization, 502, false, false, pass
 BenchmarkTest00659, deserialization, 502, false, false, pass
 BenchmarkTest00660, deserialization, 502, false, false, pass
 BenchmarkTest00661, pathtraver, 22, false, false, pass
@@ -728,7 +728,7 @@ BenchmarkTest00726, trustbound, 501, false, false, pass
 BenchmarkTest00727, trustbound, 501, true, false, fail
 BenchmarkTest00728, codeinj, 94, true, true, pass
 BenchmarkTest00729, codeinj, 94, true, false, fail
-BenchmarkTest00730, codeinj, 94, false, true, fail
+BenchmarkTest00730, codeinj, 94, false, false, pass
 BenchmarkTest00731, ldapi, 90, true, false, fail
 BenchmarkTest00732, ldapi, 90, false, false, pass
 BenchmarkTest00733, ldapi, 90, true, false, fail
@@ -816,11 +816,11 @@ BenchmarkTest00814, redirect, 601, true, false, fail
 BenchmarkTest00815, redirect, 601, false, false, pass
 BenchmarkTest00816, redirect, 601, false, false, pass
 BenchmarkTest00817, trustbound, 501, true, false, fail
-BenchmarkTest00818, codeinj, 94, false, true, fail
+BenchmarkTest00818, codeinj, 94, false, false, pass
 BenchmarkTest00819, codeinj, 94, true, true, pass
 BenchmarkTest00820, codeinj, 94, true, true, pass
-BenchmarkTest00821, codeinj, 94, false, true, fail
-BenchmarkTest00822, codeinj, 94, false, true, fail
+BenchmarkTest00821, codeinj, 94, false, false, pass
+BenchmarkTest00822, codeinj, 94, false, false, pass
 BenchmarkTest00823, ldapi, 90, true, false, fail
 BenchmarkTest00824, ldapi, 90, true, false, fail
 BenchmarkTest00825, deserialization, 502, true, true, pass
@@ -890,8 +890,8 @@ BenchmarkTest00888, trustbound, 501, true, false, fail
 BenchmarkTest00889, trustbound, 501, true, false, fail
 BenchmarkTest00890, codeinj, 94, true, true, pass
 BenchmarkTest00891, codeinj, 94, true, true, pass
-BenchmarkTest00892, codeinj, 94, false, true, fail
-BenchmarkTest00893, codeinj, 94, false, true, fail
+BenchmarkTest00892, codeinj, 94, false, false, pass
+BenchmarkTest00893, codeinj, 94, false, false, pass
 BenchmarkTest00894, codeinj, 94, true, true, pass
 BenchmarkTest00895, ldapi, 90, true, false, fail
 BenchmarkTest00896, ldapi, 90, true, false, fail
@@ -985,7 +985,7 @@ BenchmarkTest00983, redirect, 601, false, false, pass
 BenchmarkTest00984, trustbound, 501, true, false, fail
 BenchmarkTest00985, trustbound, 501, false, false, pass
 BenchmarkTest00986, codeinj, 94, true, true, pass
-BenchmarkTest00987, codeinj, 94, false, true, fail
+BenchmarkTest00987, codeinj, 94, false, false, pass
 BenchmarkTest00988, codeinj, 94, false, false, pass
 BenchmarkTest00989, codeinj, 94, false, false, pass
 BenchmarkTest00990, ldapi, 90, false, false, pass
@@ -993,7 +993,7 @@ BenchmarkTest00991, ldapi, 90, false, false, pass
 BenchmarkTest00992, deserialization, 502, true, false, fail
 BenchmarkTest00993, deserialization, 502, true, false, fail
 BenchmarkTest00994, deserialization, 502, true, true, pass
-BenchmarkTest00995, deserialization, 502, false, true, fail
+BenchmarkTest00995, deserialization, 502, false, false, pass
 BenchmarkTest00996, deserialization, 502, false, false, pass
 BenchmarkTest00997, deserialization, 502, false, false, pass
 BenchmarkTest00998, deserialization, 502, false, false, pass
@@ -1106,7 +1106,7 @@ BenchmarkTest01104, xss, 79, false, false, pass
 BenchmarkTest01105, pathtraver, 22, false, false, pass
 BenchmarkTest01106, pathtraver, 22, false, false, pass
 BenchmarkTest01107, pathtraver, 22, false, false, pass
-BenchmarkTest01108, pathtraver, 22, false, true, fail
+BenchmarkTest01108, pathtraver, 22, false, false, pass
 BenchmarkTest01109, pathtraver, 22, false, false, pass
 BenchmarkTest01110, pathtraver, 22, false, false, pass
 BenchmarkTest01111, pathtraver, 22, false, false, pass
@@ -1163,15 +1163,15 @@ BenchmarkTest01161, trustbound, 501, false, false, pass
 BenchmarkTest01162, trustbound, 501, false, false, pass
 BenchmarkTest01163, trustbound, 501, false, false, pass
 BenchmarkTest01164, codeinj, 94, false, true, fail
-BenchmarkTest01165, codeinj, 94, false, true, fail
-BenchmarkTest01166, codeinj, 94, false, true, fail
+BenchmarkTest01165, codeinj, 94, false, false, pass
+BenchmarkTest01166, codeinj, 94, false, false, pass
 BenchmarkTest01167, codeinj, 94, false, false, pass
 BenchmarkTest01168, ldapi, 90, false, false, pass
 BenchmarkTest01169, ldapi, 90, false, false, pass
 BenchmarkTest01170, ldapi, 90, false, false, pass
 BenchmarkTest01171, ldapi, 90, false, false, pass
-BenchmarkTest01172, deserialization, 502, false, true, fail
-BenchmarkTest01173, cmdi, 78, false, true, fail
+BenchmarkTest01172, deserialization, 502, false, false, pass
+BenchmarkTest01173, cmdi, 78, false, false, pass
 BenchmarkTest01174, deserialization, 502, false, false, pass
 BenchmarkTest01175, xpathi, 643, false, false, pass
 BenchmarkTest01176, weakrand, 330, true, false, fail
@@ -1220,7 +1220,7 @@ BenchmarkTest01218, xpathi, 643, true, false, fail
 BenchmarkTest01219, weakrand, 330, false, false, pass
 BenchmarkTest01220, pathtraver, 22, false, false, pass
 BenchmarkTest01221, pathtraver, 22, false, false, pass
-BenchmarkTest01222, pathtraver, 22, false, true, fail
+BenchmarkTest01222, pathtraver, 22, false, false, pass
 BenchmarkTest01223, xss, 79, false, false, pass
 BenchmarkTest01224, xss, 79, false, false, pass
 BenchmarkTest01225, xpathi, 643, false, false, pass
@@ -1228,4 +1228,4 @@ BenchmarkTest01226, xpathi, 643, false, false, pass
 BenchmarkTest01227, hash, 328, true, false, fail
 BenchmarkTest01228, deserialization, 502, false, false, pass
 BenchmarkTest01229, sqli, 89, false, false, pass
-BenchmarkTest01230, deserialization, 502, false, true, fail
+BenchmarkTest01230, deserialization, 502, false, false, pass
