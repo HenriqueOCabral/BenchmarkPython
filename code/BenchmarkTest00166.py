@@ -17,6 +17,7 @@ PURPOSE. See the GNU General Public License for more details.
 
 from flask import redirect, url_for, request, make_response, render_template
 from helpers.utils import escape_for_html
+import re
 
 def init(app):
 
@@ -37,6 +38,9 @@ def init(app):
 		map29039['keyB-29039'] = param
 		map29039['keyC'] = 'another-Value'
 		bar = map29039['keyB-29039']
+
+		if not re.match(r'^[a-zA-Z0-9_\-./\\]+$', bar):
+			bar = ""
 
 		import platform
 		import subprocess
